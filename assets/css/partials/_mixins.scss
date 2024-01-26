@@ -1,0 +1,15 @@
+@mixin common-font {
+@font-face {
+    font-family: myfont;
+    src: url(../../fonts/Gotham-Font/GothamMedium_1.ttf);
+}
+font-family: myfont;
+}
+@mixin header-a-design {
+    
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        
+        
+}
